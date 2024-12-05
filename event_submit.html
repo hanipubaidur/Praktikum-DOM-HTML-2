@@ -3,14 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form Validation</title>
+    <title>Form Validation and Dynamic List</title>
 </head>
 <body>
     <form id="myForm">
-        <input type="text" id="nameField" placeholder="Enter your name">
-        <button type="submit">Submit</button>
+        <h2>Add Items to List</h2>
+        <input type="text" id="itemField" placeholder="Enter item">
+        <button id="addItemButton">Add Item</button>
+        <ul id="itemList"></ul>
     </form>
     <p id="errorMessage" style="color:red"></p>
+
     <script src="JS/script_submit.js"></script>
 </body>
 </html>
